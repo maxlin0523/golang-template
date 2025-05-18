@@ -16,7 +16,7 @@ const docTemplate = `{
     "basePath": "{{.BasePath}}",
     "paths": {
         "/public/api/v1/user": {
-            "post": {
+            "get": {
                 "produces": [
                     "application/json"
                 ],

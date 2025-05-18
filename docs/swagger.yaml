@@ -10,7 +10,7 @@ info:
   version: "1.0"
 paths:
   /public/api/v1/user:
-    post:
+    get:
       produces:
       - application/json
       responses:
